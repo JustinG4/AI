@@ -54,7 +54,8 @@ def getCodeFiles(file_list):
 
 def generatePDFReport(data):
     # calculate how big table should be
-    files = data["Code File List"]
+    files = list(data["Code File Analysis"].keys())
+    analysi = list(data["Code File Analysis"].values())
     table_size = len(files)
 
     # create a empty text file
@@ -92,8 +93,10 @@ def generatePDFReport(data):
     for x in range(0,table_size):
         fp.write('    tr\n')
         fp.write('      td ' + files[x] + '\n')
-        fp.write('      td Placeholder\n')
+        fp.write('      td ' + analysi[x] + '\n')
         fp.write('    tr\n')
+    fp.write('\n')
+    fp.write('\n')
     fp.close()
 
     time.sleep(5)
@@ -128,7 +131,12 @@ def getHLAnalysis():
     time.sleep(5)
 
     code_files = getCodeFiles(file_list)
-    prompt_2 = 'Can you explain what each the following files do: ' + str(code_files)[1:-1]
+    cfs = []
+    for file in code_files:
+        file_name = os.path.basename(file)
+        cfs.append(file_name)
+
+    prompt_2 = 'Can you explain what each the following files do: ' + str(cfs)[1:-1]
     response_2 = openai.Completion.create(
         model="text-davinci-003",
         prompt=prompt_2,
@@ -139,20 +147,28 @@ def getHLAnalysis():
         presence_penalty=0
     )
     code_file_analysis = response_2["choices"][0]["text"]
-    print(code_file_analysis)
+    code_file_analysis = code_file_analysis.split('\n')
+
+    code_analysis_dict = create_file_dict(code_file_analysis)
 
     # build analysis
     data = {
         "File Structure Analysis": file_structure_analysis.replace('\n', ''),
-        "Code File Analysis": code_file_analysis.replace('\n', ''),
-        "Code File List": code_files
+        "Code File Analysis": code_analysis_dict,
+        "Code File List": cfs
     }
 
     return data
 
 
-def getLLAnalysis():
-    return 0
+def create_file_dict(file_list):
+    file_dict = {}
+    for item in file_list:
+        if ':' in item:
+            file_name, description = item.split(':', 1)
+            file_dict[file_name.strip()] = description.strip()
+    return file_dict
+
 
 data = getHLAnalysis()
 report = generatePDFReport(data)
