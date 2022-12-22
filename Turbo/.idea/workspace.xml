@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03ae4c36-7545-4c1c-8e20-8ecd66543ca1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2JE60Vk8P0fuvFzt3Sjrlcj4Iov" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="ai" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Turbo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Turbo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.ai" />
+      <item itemvalue="Python.test" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03ae4c36-7545-4c1c-8e20-8ecd66543ca1" name="Default Changelist" comment="" />
+      <created>1671630673589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671630673589</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="239" y="90" key="#Web_Browsers" timestamp="1671638033926">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="239" y="90" key="#Web_Browsers/0.25.1440.805@0.25.1440.805" timestamp="1671638033926" />
+    <state x="103" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1671643057653">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="103" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1671643057653" />
+    <state x="103" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.805@0.25.1440.805" timestamp="1671633457999" />
+    <state width="1419" height="186" key="GridCell.Tab.0.bottom" timestamp="1671657448653">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="186" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1671657448653" />
+    <state width="1105" height="186" key="GridCell.Tab.0.bottom/0.25.1440.805@0.25.1440.805" timestamp="1671640228237" />
+    <state width="1419" height="186" key="GridCell.Tab.0.center" timestamp="1671657448652">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="186" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1671657448652" />
+    <state width="1105" height="186" key="GridCell.Tab.0.center/0.25.1440.805@0.25.1440.805" timestamp="1671640228237" />
+    <state width="1419" height="186" key="GridCell.Tab.0.left" timestamp="1671657448651">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="186" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1671657448651" />
+    <state width="1105" height="186" key="GridCell.Tab.0.left/0.25.1440.805@0.25.1440.805" timestamp="1671640228236" />
+    <state width="1419" height="186" key="GridCell.Tab.0.right" timestamp="1671657448653">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="186" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1671657448653" />
+    <state width="1105" height="186" key="GridCell.Tab.0.right/0.25.1440.805@0.25.1440.805" timestamp="1671640228237" />
+    <state x="229" y="86" key="SettingsEditor" timestamp="1671657441736">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1671657441736" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1671657204096">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1671657204096" />
+  </component>
+</project>
